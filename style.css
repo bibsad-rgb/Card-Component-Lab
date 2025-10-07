@@ -1,0 +1,34 @@
+ *,
+*::before,
+*::after {
+    box-sizing: border-box;
+} 
+.container {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display:flex;
+    background-color: azure;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    border: 5px outset black;
+    margin: 10px 20px;
+    flex-direction: column;
+    align-items: center; 
+    
+
+}
+.card img{
+    display:flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 1;
+    /* max-width:100%;
+    width: 100px;
+    height: 100px; */
+}
